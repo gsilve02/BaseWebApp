@@ -26,3 +26,20 @@
 
 <!-- then our app's own js file -->
 <script src="/js/main.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/3.7.5/firebase.js"></script>
+
+<script type="text/javascript">
+  var apiKey = '<%= process.env.API_KEY %>';
+
+  var config = {
+    apiKey: "AIzaSyBO1QGsNpDsBAWRlN5PV8J8NUxOYo95hRk",
+    authDomain: "first-project-c283f.firebaseapp.com",
+    databaseURL: "https://first-project-c283f.firebaseio.com",
+    projectId: "first-project-c283f",
+    storageBucket: "first-project-c283f.appspot.com",
+    messagingSenderId: "245841622620"
+  };
+
+  firebase.initializeApp(config);
+</script>
