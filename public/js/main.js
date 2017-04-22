@@ -6,6 +6,6 @@ function myFunction() {
   $("#demo").html("NEWWW PARAGRAPH #javascript #fire");
 
   // 'img-circle' is a bootstrap thing! Check out more here: http://getbootstrap.com/css/
-  $("#doge-image").append(`<img class="img-circle" src="/images/wowdoge.jpeg" />`);
+  $("#gif").append(`<img class="img-circle" src="/images/tina_dance.gif" />`);
 }
 
